@@ -24,7 +24,7 @@ namespace Bakery
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<BakeryContext>(); //register dependency injection for DB
+            services.AddDbContext<BakeryContext>(); //register dependency injection for DB, context can now be available to pagemodels by injecting it via the class constructor
             services.AddRazorPages();
         }
 
