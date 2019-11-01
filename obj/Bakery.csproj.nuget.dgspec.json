@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Rean\\source\\repos\\Bakery\\Bakery.csproj": {}
+    "C:\\Users\\ReanO\\source\\repos\\Bakery\\Bakery.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Rean\\source\\repos\\Bakery\\Bakery.csproj": {
+    "C:\\Users\\ReanO\\source\\repos\\Bakery\\Bakery.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rean\\source\\repos\\Bakery\\Bakery.csproj",
+        "projectUniqueName": "C:\\Users\\ReanO\\source\\repos\\Bakery\\Bakery.csproj",
         "projectName": "Bakery",
-        "projectPath": "C:\\Users\\Rean\\source\\repos\\Bakery\\Bakery.csproj",
-        "packagesPath": "C:\\Users\\Rean\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rean\\source\\repos\\Bakery\\obj\\",
+        "projectPath": "C:\\Users\\ReanO\\source\\repos\\Bakery\\Bakery.csproj",
+        "packagesPath": "C:\\Users\\ReanO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ReanO\\source\\repos\\Bakery\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Rean\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ReanO\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
