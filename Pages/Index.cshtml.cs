@@ -27,13 +27,13 @@ namespace Bakery.Pages
         // }
         //it creates an empty object of type BakeryContext, then populates it with the context that was regsitered as a service in startup.cs
         
-        public List<Product> Products { get; set; } = new List<Product>();   //declare list to hold db data (still empty)
+        public List<Product> Products { get; set; } = new List<Product>();   //declare list of type Product (model class) to hold db data (still empty)
         public Product FeaturedProduct { get; set; }  //declare product object for featured product (still empty)
         
         public async Task OnGetAsync()
         {
-            Products = await db.Products.ToListAsync();  //load DB Products table contents into Products class instance
-            FeaturedProduct = Products.ElementAt(new Random().Next(Products.Count()));  //Load DB data for record into FeaturedProduct class instance
+            Products = await db.Products.ToListAsync();  //load DB Products table contents into Products list
+            FeaturedProduct = Products.ElementAt(new Random().Next(Products.Count()));  //Load DB data for record into FeaturedProduct variable
         }
     }
 }
